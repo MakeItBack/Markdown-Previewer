@@ -1,4 +1,11 @@
+import Toolbar from "./Toolbar";
+
 const Editor = () => {
-   return <textarea>Editor</textarea>;
+   return (
+      <div>
+         <Toolbar />
+         <textarea>Editor</textarea>
+      </div>
+   );
 };
 export default Editor;

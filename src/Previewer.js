@@ -1,5 +1,12 @@
+import Toolbar from "./Toolbar";
+
 const Previewer = () => {
-   return <textarea>Previewer</textarea>;
+   return (
+      <div>
+         <Toolbar />
+         <textarea>Previewer</textarea>;
+      </div>
+   );
 };
 
 export default Previewer;
