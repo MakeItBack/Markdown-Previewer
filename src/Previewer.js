@@ -1,10 +1,12 @@
 import Toolbar from "./Toolbar";
 
-const Previewer = () => {
+const Previewer = (props) => {
    return (
-      <div>
-         <Toolbar />
-         <textarea>Previewer</textarea>;
+      <div className="Previewer">
+         <Toolbar toolbarTitle="Markdown Previewer Window" />
+         <div id="preview" className="Previewer-window">
+            {props.previewText}
+         </div>
       </div>
    );
 };
