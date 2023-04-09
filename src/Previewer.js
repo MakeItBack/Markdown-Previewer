@@ -1,26 +1,12 @@
 import React from "react";
 import Toolbar from "./Toolbar";
-import { marked } from "marked";
 
 class Previewer extends React.Component {
-   constructor(props) {
-      super(props);
-      this.createHtml = this.createHtml.bind(this);
-   }
-   createHtml() {
-      const input = this.props.editorText;
-      const output = marked.parse(input, {
-         gfm: true,
-         breaks: true,
-         headerIds: false,
-      });
-      return output;
-   }
    componentDidUpdate() {
-      document.getElementById("preview").innerHTML = this.createHtml();
+      document.getElementById("preview").innerHTML = this.props.htmlString;
    }
    componentDidMount() {
-      document.getElementById("preview").innerHTML = this.createHtml();
+      document.getElementById("preview").innerHTML = this.props.htmlString;
    }
    render() {
       return (
