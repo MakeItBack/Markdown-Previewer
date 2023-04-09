@@ -4,16 +4,12 @@ const Toolbar = (props) => {
       padding: "10px 20px",
       fontWeight: 600,
       borderRadius: "0 20px 0 0",
-      // display: "flex",
-      // flexDirection: "row",
-      // alignItems: "center",
-      // justifyContent: "spaceBetween",
    };
 
    return (
       <div style={styles}>
          <p style={{ display: "inline-block", margin: 0 }}>{props.toolbarTitle}</p>
-         <p
+         {/* <p
             style={{
                display: "block",
                margin: 0,
@@ -22,7 +18,7 @@ const Toolbar = (props) => {
                color: "darkBlue",
             }}>
             000
-         </p>
+         </p> */}
       </div>
    );
 };

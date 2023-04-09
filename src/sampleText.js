@@ -1,28 +1,31 @@
-export const sampleText = `# Welcome to my React Markdown Previewer!
-## This is a sub-heading element
-### H3 headings look like this
+export const sampleText = `# This is a Markdown Previewer
+## Part of the freeCodeCamp sylabus
+### Front End Development Libraries (project 2)
+#### Built using React
 
-You can also make text **bold**
-Or _italic_.
-Or... wait for it... **_both!_**
-And feel free to go crazy ~~crossing stuff out~~.
+---
+
+##### Headings are fine, but there are lots of other things you can do with Markdown too...
+You can make text **bold**
+Or make text _italic_.
+Or...  **_both_** together!
+
+This is how you can ~~cross stuff out~~.
 
 You can also create a link like this one 👉🏻 [links](https://www.freecodecamp.org)
 
-> Block Quotes!
+> This is a **Block Quote**
 
- #### Code Block
+...and here's a **Code Block:**
 
     codeBlockCode
     BlockcodeBlock
     codeBlockCode
     BlockcodeBlock
 
-#### Inline Code
+**Inline Code** ...looks like \`code\`
 
-....looks like \`code\`
-
-- And of course there are lists.
+- Of course there are **lists** too.
   - Some are bulleted.
      - With different indentation levels.
         - That look like this.
@@ -30,7 +33,13 @@ You can also create a link like this one 👉🏻 [links](https://www.freecodeca
 
 1. And there are numbered lists too.
 1. Use just 1s if you want!
-1. And last but not least, let's not forget embedded images:
+1. And finally ...
+
+
+---
+
+**Here's an embedded image:**
+
 
 ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
 `;
