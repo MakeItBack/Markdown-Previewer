@@ -34,6 +34,7 @@ This project is built with **React** using [Create React App](https://github.com
 ---
 
 ![Markdown Previewer screenshot](public/screenshot.png)
+
 ---
 
 ## Instructions
