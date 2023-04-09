@@ -57,8 +57,7 @@ This project is [deployed on Netlify](https://md-pvwr.netlify.app/)
 ## Status
 
 <a href="https://GitHub.com/MakeItBack/Markdown-Previewer/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
-<a href="https://GitHub.com/MakeItBack/Markdown-Previewer/commit"><img src="https://img.shields.io/github/last-commit/MakeItBack/Markdown-Previewer
-"></a>
+<a href="https://GitHub.com/MakeItBack/Markdown-Previewer/commit"><img src="https://img.shields.io/github/last-commit/MakeItBack/Markdown-Previewer"></a>
 
 ## License
 
